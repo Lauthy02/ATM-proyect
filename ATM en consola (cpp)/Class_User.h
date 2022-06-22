@@ -3,7 +3,11 @@
 class User
 {
     private: //Atributos
+        string Nombre;
+        string Apellido;
         int Edad;
+        int DNI; 
+
     public: //Funciones
         User(int); //Constructor
 };
